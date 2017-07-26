@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>After a function has been stored in a variable,
+the variable can be used as a function:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = function (a, b) {return a * b};
+firstNumber = prompt("First number:"); 
+secondNumber = prompt("Second number:");
+document.getElementById("demo").innerHTML = x(firstNumber, secondNumber);
+</script>
+
+</body>
+</html>
+
